@@ -24,12 +24,6 @@ function addEvents() {
     clear.addEventListener("click", clearAll);
 }
 
-// function removeEvents() {
-//     buttons.removeEventListener("click", displayData);
-//     equal.removeEventListener("click", operate);
-//     clear.removeEventListener("click", clearAll);
-// }
-
 function displayData(e) {
     let btn = e.target;
     if (btn.className.includes("num")) {
