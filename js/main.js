@@ -1,8 +1,8 @@
 const calculator = document.querySelector(".calc");
 const buttons = document.querySelector(".calc__body");
-const output = document.querySelector(".calc__result");
-const text = document.querySelector(".calc__text");
-const title = document.querySelector(".calc__title");
+const output = document.querySelector(".result");
+const text = document.querySelector(".text");
+const title = document.querySelector(".title");
 const equal = document.querySelector("#btn-equal");
 const clear = document.querySelector("#btn-clear");
 
