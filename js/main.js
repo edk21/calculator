@@ -92,9 +92,6 @@ function operate() {
         if (result.includes(".")) {
             result = Number(result).toFixed(2);
         }
-        if (result.includes("e")) {
-            result = Number(result).toPrecision(3);
-        }
 
         text.innerText = `${firstOperand} ${operator} ${secondOperand}`;
         output.innerText = result;
