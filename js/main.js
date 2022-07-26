@@ -78,7 +78,8 @@ function operate() {
         }
 
         if (danger) {
-            dangerAnimation();
+            text.innerText = "Infinity";
+            output.innerText = "";
             return;
         }
 
@@ -124,14 +125,4 @@ function lengthCheck(input) {
         output.classList.remove("result-small");
         output.classList.remove("result-xsmall");
     }
-}
-
-function dangerAnimation() {
-    title.textContent = "Don't Divide By Zero!"
-    intervalID = setInterval(() => {
-        title.classList.toggle("danger");
-    }, 200);
-    text.innerText = "Infinity";
-    output.innerText = "";
-    output.innerText = "😠😠😠😠😠"
 }
